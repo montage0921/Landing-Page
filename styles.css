@@ -62,7 +62,10 @@ ul {
 }
 
 .group-photo {
-  flex: none;
+  width: 700px;
+  height: auto;
+  flex: 1 0 auto;
+  opacity: 0.5;
 }
 
 button {
