@@ -20,6 +20,7 @@ body {
   padding: 16px 58px;
   color: pink;
   gap: 50px;
+  background: linear-gradient(rgba(238, 233, 233, 0.1), 10%, black);
 }
 
 header {
@@ -88,5 +89,12 @@ button {
 
 .three {
   padding: 0px 100px;
-  background-color: rgb(0, 0, 0, 0.7);
+}
+
+.quote-person {
+  display: flex;
+  margin: 0%;
+  justify-content: flex-end;
+  padding-right: 15px;
+  font-size: 26px;
 }
