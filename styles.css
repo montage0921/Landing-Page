@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Primetime";
+  src: url(/Font/PRIMETIME\ И\ PERSONAL\ USE\ ONLY.ttf);
+}
+
+.section-one {
+  padding: 16px 58px;
+  background-color: black;
+  color: pink;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  line-height: 72px;
+  font-weight: bold;
+  font-size: 28px;
+  font-family: "Primetime";
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 80px;
+  list-style-type: none;
+}
+
+.opening {
+  display: flex;
+  gap: 16px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
