@@ -3,6 +3,12 @@
   src: url(/Font/PRIMETIME\ И\ PERSONAL\ USE\ ONLY.ttf);
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
 .section-one {
   padding: 16px 58px;
   background-color: black;
@@ -13,6 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .logo {
@@ -34,14 +41,16 @@ ul {
 .opening {
   display: flex;
   gap: 16px;
-  align-items: center;
 }
 
 .description {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex-wrap: wrap;
+}
+
+.photo-container {
+  display: flex;
 }
 
 button {
