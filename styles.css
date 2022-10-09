@@ -17,6 +17,7 @@ header {
 
 .logo {
   line-height: 72px;
+  color: rgb(244, 167, 187);
   font-weight: bold;
   font-size: 28px;
   font-family: "Primetime";
@@ -33,9 +34,20 @@ ul {
 .opening {
   display: flex;
   gap: 16px;
+  align-items: center;
 }
 
 .description {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+button {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  width: 100px;
+  border-radius: 12px;
 }
