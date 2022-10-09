@@ -98,3 +98,21 @@ button {
   padding-right: 15px;
   font-size: 26px;
 }
+
+.four {
+  padding: 100px;
+}
+.sign-up {
+  display: flex;
+  align-items: center;
+  gap: 250px;
+  border-radius: 30px;
+  background-color: pink;
+  color: black;
+  padding: 30px;
+}
+
+button {
+  color: black;
+  background-color: white;
+}
