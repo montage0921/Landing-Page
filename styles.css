@@ -4,22 +4,22 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   margin: 0;
 }
 
 #myVideo {
   position: absolute;
-
   min-width: 100%;
   min-height: 100%;
 }
 
-.one {
+.content {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   padding: 16px 58px;
   color: pink;
+  gap: 50px;
 }
 
 header {
@@ -60,10 +60,28 @@ ul {
   display: flex;
 }
 
+.group-photo {
+  flex: none;
+}
+
 button {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
   width: 100px;
   border-radius: 12px;
+}
+
+.two {
+  text-align: center;
+}
+
+.info {
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.member {
+  max-width: 200px;
 }
